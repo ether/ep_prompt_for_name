@@ -6,7 +6,6 @@
         "aceInitInnerdocbodyHead": "ep_prompt_for_name/static/js/index:aceInitInnerdocbodyHead"
       },
       "hooks": {
-        "clientVars":"ep_prompt_for_name/index:clientVars"
       }
     }
   ]
