@@ -1,0 +1,146 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/jose/v0.11.7/bin/node',
+1 verbose cli   '/home/jose/v0.11.7/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.3.8
+3 info using node@v0.11.7
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /home/jose/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/home/jose/tmp/npm-32344-Av3_Yqbw/1396533997377-0.9384000317659229/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /home/jose/tmp/npm-32344-Av3_Yqbw/1396533997377-0.9384000317659229/tmp.tgz
+12 verbose folder .
+13 silly lockFile 1f1177db-tar tar://.
+14 verbose lock tar://. /home/jose/.npm/1f1177db-tar.lock
+15 silly lockFile 23c28793-97377-0-9384000317659229-tmp-tgz tar:///home/jose/tmp/npm-32344-Av3_Yqbw/1396533997377-0.9384000317659229/tmp.tgz
+16 verbose lock tar:///home/jose/tmp/npm-32344-Av3_Yqbw/1396533997377-0.9384000317659229/tmp.tgz /home/jose/.npm/23c28793-97377-0-9384000317659229-tmp-tgz.lock
+17 silly lockFile 1f1177db-tar tar://.
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 23c28793-97377-0-9384000317659229-tmp-tgz tar:///home/jose/tmp/npm-32344-Av3_Yqbw/1396533997377-0.9384000317659229/tmp.tgz
+20 silly lockFile 23c28793-97377-0-9384000317659229-tmp-tgz tar:///home/jose/tmp/npm-32344-Av3_Yqbw/1396533997377-0.9384000317659229/tmp.tgz
+21 verbose tar unpack /home/jose/tmp/npm-32344-Av3_Yqbw/1396533997377-0.9384000317659229/tmp.tgz
+22 silly lockFile 7b80fcd4-97377-0-9384000317659229-package tar:///home/jose/tmp/npm-32344-Av3_Yqbw/1396533997377-0.9384000317659229/package
+23 verbose lock tar:///home/jose/tmp/npm-32344-Av3_Yqbw/1396533997377-0.9384000317659229/package /home/jose/.npm/7b80fcd4-97377-0-9384000317659229-package.lock
+24 silly lockFile 23c28793-97377-0-9384000317659229-tmp-tgz tar:///home/jose/tmp/npm-32344-Av3_Yqbw/1396533997377-0.9384000317659229/tmp.tgz
+25 verbose lock tar:///home/jose/tmp/npm-32344-Av3_Yqbw/1396533997377-0.9384000317659229/tmp.tgz /home/jose/.npm/23c28793-97377-0-9384000317659229-tmp-tgz.lock
+26 silly gunzTarPerm modes [ '755', '644' ]
+27 silly gunzTarPerm extractEntry package.json
+28 silly gunzTarPerm extractEntry README.md
+29 silly gunzTarPerm extractEntry .ep_initialized
+30 silly gunzTarPerm extractEntry ep.json
+31 silly gunzTarPerm extractEntry static/js/ace_inner.js
+32 silly gunzTarPerm extractEntry static/js/index.js
+33 silly gunzTarPerm extractEntry static/js/main.js
+34 silly lockFile 7b80fcd4-97377-0-9384000317659229-package tar:///home/jose/tmp/npm-32344-Av3_Yqbw/1396533997377-0.9384000317659229/package
+35 silly lockFile 7b80fcd4-97377-0-9384000317659229-package tar:///home/jose/tmp/npm-32344-Av3_Yqbw/1396533997377-0.9384000317659229/package
+36 silly lockFile 23c28793-97377-0-9384000317659229-tmp-tgz tar:///home/jose/tmp/npm-32344-Av3_Yqbw/1396533997377-0.9384000317659229/tmp.tgz
+37 silly lockFile 23c28793-97377-0-9384000317659229-tmp-tgz tar:///home/jose/tmp/npm-32344-Av3_Yqbw/1396533997377-0.9384000317659229/tmp.tgz
+38 verbose tar pack [ '/home/jose/.npm/ep_prompt_for_name/0.0.2/package.tgz',
+38 verbose tar pack   '/home/jose/tmp/npm-32344-Av3_Yqbw/1396533997377-0.9384000317659229/package' ]
+39 verbose tarball /home/jose/.npm/ep_prompt_for_name/0.0.2/package.tgz
+40 verbose folder /home/jose/tmp/npm-32344-Av3_Yqbw/1396533997377-0.9384000317659229/package
+41 silly lockFile 7b80fcd4-97377-0-9384000317659229-package tar:///home/jose/tmp/npm-32344-Av3_Yqbw/1396533997377-0.9384000317659229/package
+42 verbose lock tar:///home/jose/tmp/npm-32344-Av3_Yqbw/1396533997377-0.9384000317659229/package /home/jose/.npm/7b80fcd4-97377-0-9384000317659229-package.lock
+43 silly lockFile f297f2d2-rompt-for-name-0-0-2-package-tgz tar:///home/jose/.npm/ep_prompt_for_name/0.0.2/package.tgz
+44 verbose lock tar:///home/jose/.npm/ep_prompt_for_name/0.0.2/package.tgz /home/jose/.npm/f297f2d2-rompt-for-name-0-0-2-package-tgz.lock
+45 silly lockFile 7b80fcd4-97377-0-9384000317659229-package tar:///home/jose/tmp/npm-32344-Av3_Yqbw/1396533997377-0.9384000317659229/package
+46 silly lockFile 7b80fcd4-97377-0-9384000317659229-package tar:///home/jose/tmp/npm-32344-Av3_Yqbw/1396533997377-0.9384000317659229/package
+47 silly lockFile f297f2d2-rompt-for-name-0-0-2-package-tgz tar:///home/jose/.npm/ep_prompt_for_name/0.0.2/package.tgz
+48 silly lockFile f297f2d2-rompt-for-name-0-0-2-package-tgz tar:///home/jose/.npm/ep_prompt_for_name/0.0.2/package.tgz
+49 silly lockFile 5c623219-ep-prompt-for-name-0-0-2-package /home/jose/.npm/ep_prompt_for_name/0.0.2/package
+50 verbose lock /home/jose/.npm/ep_prompt_for_name/0.0.2/package /home/jose/.npm/5c623219-ep-prompt-for-name-0-0-2-package.lock
+51 silly lockFile 5c623219-ep-prompt-for-name-0-0-2-package /home/jose/.npm/ep_prompt_for_name/0.0.2/package
+52 silly lockFile 5c623219-ep-prompt-for-name-0-0-2-package /home/jose/.npm/ep_prompt_for_name/0.0.2/package
+53 verbose tar unpack /home/jose/.npm/ep_prompt_for_name/0.0.2/package.tgz
+54 silly lockFile c5afb8f6-ep-prompt-for-name-0-0-2-package tar:///home/jose/.npm/ep_prompt_for_name/0.0.2/package
+55 verbose lock tar:///home/jose/.npm/ep_prompt_for_name/0.0.2/package /home/jose/.npm/c5afb8f6-ep-prompt-for-name-0-0-2-package.lock
+56 silly lockFile f297f2d2-rompt-for-name-0-0-2-package-tgz tar:///home/jose/.npm/ep_prompt_for_name/0.0.2/package.tgz
+57 verbose lock tar:///home/jose/.npm/ep_prompt_for_name/0.0.2/package.tgz /home/jose/.npm/f297f2d2-rompt-for-name-0-0-2-package-tgz.lock
+58 silly gunzTarPerm modes [ '755', '644' ]
+59 silly gunzTarPerm extractEntry package.json
+60 silly gunzTarPerm extractEntry README.md
+61 silly gunzTarPerm extractEntry .ep_initialized
+62 silly gunzTarPerm extractEntry ep.json
+63 silly gunzTarPerm extractEntry static/js/ace_inner.js
+64 silly gunzTarPerm extractEntry static/js/index.js
+65 silly gunzTarPerm extractEntry static/js/main.js
+66 silly lockFile c5afb8f6-ep-prompt-for-name-0-0-2-package tar:///home/jose/.npm/ep_prompt_for_name/0.0.2/package
+67 silly lockFile c5afb8f6-ep-prompt-for-name-0-0-2-package tar:///home/jose/.npm/ep_prompt_for_name/0.0.2/package
+68 silly lockFile f297f2d2-rompt-for-name-0-0-2-package-tgz tar:///home/jose/.npm/ep_prompt_for_name/0.0.2/package.tgz
+69 silly lockFile f297f2d2-rompt-for-name-0-0-2-package-tgz tar:///home/jose/.npm/ep_prompt_for_name/0.0.2/package.tgz
+70 verbose chmod /home/jose/.npm/ep_prompt_for_name/0.0.2/package.tgz 644
+71 verbose chown /home/jose/.npm/ep_prompt_for_name/0.0.2/package.tgz [ 1000, 1000 ]
+72 silly lockFile 3a52ce78- .
+73 silly lockFile 3a52ce78- .
+74 silly publish { name: 'ep_prompt_for_name',
+74 silly publish   description: 'Prompt an author for their name',
+74 silly publish   version: '0.0.2',
+74 silly publish   author:
+74 silly publish    { name: 'johnyma22',
+74 silly publish      email: 'john@mclear.co.uk',
+74 silly publish      url: 'John McLear' },
+74 silly publish   dependencies: {},
+74 silly publish   engines: { node: '>= 0.4.1' },
+74 silly publish   repository:
+74 silly publish    { type: 'git',
+74 silly publish      url: 'https://github.com/JohnMcLear/ep_prompt_for_name.git' },
+74 silly publish   readme: '# Prompts user to insert their name 5 seconds after they start typing\n\nOnly shows if user hasn\'t already set their name, useful for pads and instances with lots of transient users.\n\n## Installation\nInstall using /admin/plugins or npm install ep_prompt_for_name\nEdit settings in settings.json <-- sponsor this\n\n',
+74 silly publish   readmeFilename: 'README.md',
+74 silly publish   bugs: { url: 'https://github.com/JohnMcLear/ep_prompt_for_name/issues' },
+74 silly publish   _id: 'ep_prompt_for_name@0.0.2',
+74 silly publish   dist: { shasum: 'de89ce5a52b19dc658bad9d1e2f34add84b882ad' },
+74 silly publish   _from: '.' }
+75 verbose url raw ep_prompt_for_name
+76 verbose url resolving [ 'https://registry.npmjs.org/', './ep_prompt_for_name' ]
+77 verbose url resolved https://registry.npmjs.org/ep_prompt_for_name
+78 info trying registry request attempt 1 at 15:06:37
+79 http PUT https://registry.npmjs.org/ep_prompt_for_name
+80 http 403 https://registry.npmjs.org/ep_prompt_for_name
+81 info trying registry request attempt 1 at 15:06:39
+82 http PUT https://registry.npmjs.org/ep_prompt_for_name
+83 http 201 https://registry.npmjs.org/ep_prompt_for_name
+84 verbose url raw ep_prompt_for_name
+85 verbose url resolving [ 'https://registry.npmjs.org/', './ep_prompt_for_name' ]
+86 verbose url resolved https://registry.npmjs.org/ep_prompt_for_name
+87 info trying registry request attempt 1 at 15:06:42
+88 http GET https://registry.npmjs.org/ep_prompt_for_name
+89 http 200 https://registry.npmjs.org/ep_prompt_for_name
+90 verbose uploading [ 'ep_prompt_for_name/-/ep_prompt_for_name-0.0.2.tgz/-rev/3-fb08df283844dd23f850564ba5aee358',
+90 verbose uploading   '/home/jose/.npm/ep_prompt_for_name/0.0.2/package.tgz' ]
+91 verbose url raw ep_prompt_for_name/-/ep_prompt_for_name-0.0.2.tgz/-rev/3-fb08df283844dd23f850564ba5aee358
+92 verbose url resolving [ 'https://registry.npmjs.org/',
+92 verbose url resolving   './ep_prompt_for_name/-/ep_prompt_for_name-0.0.2.tgz/-rev/3-fb08df283844dd23f850564ba5aee358' ]
+93 verbose url resolved https://registry.npmjs.org/ep_prompt_for_name/-/ep_prompt_for_name-0.0.2.tgz/-rev/3-fb08df283844dd23f850564ba5aee358
+94 info trying registry request attempt 1 at 15:06:42
+95 http PUT https://registry.npmjs.org/ep_prompt_for_name/-/ep_prompt_for_name-0.0.2.tgz/-rev/3-fb08df283844dd23f850564ba5aee358
+96 http 409 https://registry.npmjs.org/ep_prompt_for_name/-/ep_prompt_for_name-0.0.2.tgz/-rev/3-fb08df283844dd23f850564ba5aee358
+97 error publish fail Cannot publish over existing version.
+97 error publish fail Update the 'version' field in package.json and try again.
+97 error publish fail
+97 error publish fail If the previous version was published in error, see:
+97 error publish fail     npm help unpublish
+97 error publish fail
+97 error publish fail To automatically increment version numbers, see:
+97 error publish fail     npm help version
+98 error System Linux 3.5.0-18-generic
+99 error command "/home/jose/v0.11.7/bin/node" "/home/jose/v0.11.7/bin/npm" "publish"
+100 error cwd /home/jose/ep_prompt_for_name
+101 error node -v v0.11.7
+102 error npm -v 1.3.8
+103 error code EPUBLISHCONFLICT
+104 verbose exit [ 1, true ]
