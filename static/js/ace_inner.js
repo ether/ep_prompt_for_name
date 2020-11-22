@@ -1,10 +1,10 @@
-$(document).bind("keyup", function(e) {
-  if(!parent.parent.pad.myUserInfo.name){
+$(document).bind('keyup', (e) => {
+  if (!parent.parent.pad.myUserInfo.name) {
     clearTimeout(timer);
-    var timer = setTimeout(function(){
-      if ( !parent.parent.$('#users').hasClass('popup-show') ){
+    var timer = setTimeout(() => {
+      if (!parent.parent.$('#users').hasClass('popup-show')) {
         parent.parent.$('#users').addClass('popup-show');
       }
-    },5000);
+    }, 5000);
   }
 });
