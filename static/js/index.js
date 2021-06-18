@@ -1,8 +1,12 @@
 'use strict';
 
-exports.aceInitInnerdocbodyHead = (hookName, args, cb) => {
-  const url = '../static/plugins/ep_prompt_for_name/static/js/ace_inner.js';
-  args.iframeHTML.push(
-      `<script type="text/javascript" src="${url}"></script>`);
-  cb();
+exports.aceInitialized = (hookName, context) => {
+  const innerWindow = window.frames.ace_outer.frames.ace_inner;
+  let timer;
+  innerWindow.$(innerWindow.document).bind('keyup', (e) => {
+    if (!pad.myUserInfo.name) {
+      innerWindow.clearTimeout(timer);
+      timer = innerWindow.setTimeout(() => $('#users').addClass('popup-show'), 5000);
+    }
+  });
 };
