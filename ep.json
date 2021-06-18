@@ -4,8 +4,6 @@
       "name": "prompt_for_name",
       "client_hooks": {
         "aceInitInnerdocbodyHead": "ep_prompt_for_name/static/js/index:aceInitInnerdocbodyHead"
-      },
-      "hooks": {
       }
     }
   ]
