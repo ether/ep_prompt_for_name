@@ -11,4 +11,4 @@ Timer starts once user starts writing.
 Useful for pads and instances with lots of transient users.
 
 ## Installation
-Install using ``/admin/plugins`` or ``npm install ep_prompt_for_name``
+Install using ``/admin/plugins`` or ``pnpm run plugins install ep_prompt_for_name``
