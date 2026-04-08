@@ -1,4 +1,4 @@
-![Publish Status](https://github.com/ether/ep_prompt_for_name/workflows/Node.js%20Package/badge.svg) ![Backend Tests Status](https://github.com/ether/ep_prompt_for_name/workflows/Backend%20tests/badge.svg)
+![Publish Status](https://github.com/ether/ep_prompt_for_name/workflows/Node.js%20Package/badge.svg) [![Backend Tests Status](https://github.com/ether/ep_prompt_for_name/actions/workflows/test-and-release.yml/badge.svg)](https://github.com/ether/ep_prompt_for_name/actions/workflows/test-and-release.yml)
 
 # Prompts user to insert their name 5 seconds after they start typing
 
